@@ -6,10 +6,38 @@ body {
 }
 .alert-item {
   /* background-color: var(--primary-color); */
-  width: 40rem;
-  min-width: fit-content;
+  width: 30rem;
+}
+.long {
+  width: 30rem;
+  border: 2px solid var(--accent-color);
+  background-color: #143041;
+}
+.danger {
+  /* background-color: ; */
+  border: 1px solid #f87171;
+}
+.danger i {
+  color: #f87171;
+}
+.reg {
+  border: 1px solid #22d3ee;
+}
+.reg i {
+  color: #22d3ee;
+}
+.warning {
+  border: 1px solid #facc15;
 }
 
-.warning {
-  /* background-color: ; */
+.warning i {
+  color: #facc15;
+}
+
+.success {
+  border: 1px solid var(--success-color);
+}
+
+.success i {
+  color: var(--success-color);
 }
