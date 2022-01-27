@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@100;200;300;400;500;600;700&family=Raleway:wght@200&family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montagu+Slab:wght@100;200;300;400;500;600;700&family=Raleway:wght@200&family=Source+Code+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif; /* Font */
+  text-decoration: none;
+}
+
+/* || Colors */
+:root {
+  --primary-color: #8075ff;
+  --secondary-color: #364156;
+  --accent-color: #2d898b;
+  --accent-2-color: #9c3848;
+  --txt-color: #cdcdcd;
+  --bg-color: #011638;
+}
+
+/* Typography Type */
+
+/* || Typography Heading*/
+
+h1,
+.para-xl {
+  font-size: 3rem;
+  line-height: 4rem;
+}
+h2,
+.para-lg {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+h3,
+.para-md {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h4,
+.para-sm {
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+h5,
+.para-xs {
+  font-size: 0.5rem;
+  line-height: 0.5rem;
+}
+
+.light-weight {
+  font-weight: 300;
+}
+.regular-weight {
+  font-weight: 400;
+}
+.semibold-weight {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.bolder {
+  font-weight: 900;
+}
+
+/* ||Spacing */
+.xs-gutter {
+  margin: 0.5rem;
+  /* padding: 0.5rem; */
+}
+
+.xs-gutter {
+  margin: 0.5rem;
+}
+.sm-gutter {
+  margin: 1.2rem;
+  /* padding: 1rem; */
+}
+.md-gutter {
+  margin: 1.5rem;
+  /* padding: 1.5rem; */
+}
+
+.lg-gutter {
+  margin: 2rem;
+  /* padding: 2rem; */
+}
+
+.xl-gutter {
+  margin: 2.5rem;
+  /* padding: 2.5rem; */
+}
+.xxl-gutter {
+  margin: 4rem;
+  /* padding: 4rem; */
+}
+
+/* || padding */
+.xs-padding {
+  padding: 0.5rem;
+}
+.sm-padding {
+  padding: 1rem;
+}
+.md-padding {
+  padding: 1.5rem;
+}
+.lg-padding {
+  padding: 2rem;
+}
+.xl-padding {
+  padding: 2.5rem;
+}
+
+/* || Border Radius */
+.full-brr {
+  border-radius: 999px;
+}
+.lg-brr {
+  border-radius: 15px;
+}
+.md-brr {
+  border-radius: 10px;
+}
+.sm-brr {
+  border-radius: 5px;
+}
