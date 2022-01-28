@@ -1,0 +1,35 @@
+@import "../../style_guide.css";
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+.avatar {
+  width: fit-content;
+}
+img {
+  object-fit: contain;
+  block-size: auto;
+}
+
+.notif-green {
+  background-color: var(--success-color);
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  border: 2px solid var(--txt-color);
+}
+
+.notif-red {
+  background-color: var(--danger-color);
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+  border: 2px solid var(--txt-color);
+}
+.img-badge {
+  position: relative;
+}
+
+img {
+  position: relative;
+}

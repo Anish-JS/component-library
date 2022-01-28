@@ -1,0 +1,38 @@
+@import "../../style_guide.css";
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+.badge-container {
+  position: relative;
+  width: fit-content;
+}
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -15px;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pos-small {
+  top: 0px;
+  right: 0px;
+}
+.notifs-badge {
+  background-color: #64748b;
+}
+
+.button-badge {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: inherit;
+  border: 2px solid var(--primary-color);
+  color: inherit;
+}
+
+.inner-badge {
+  background-color: var(--primary-color);
+}
