@@ -15,7 +15,8 @@
 :root {
   /* --primary-color: #8075ff; */
   --primary-color: #7c3aed;
-  --accent-color: #22d3ee;
+  --accent-color: #0284c7;
+  --dark-accent: #0f2a3a;
   /* --secondary-color: #364156;
   --accent-color: #2d898b;
   --accent-2-color: #9c3848; */
@@ -112,6 +113,14 @@ h5,
   /* padding: 4rem; */
 }
 
+.top-gutter {
+  margin-top: 1rem;
+}
+
+.bottom-gutter {
+  margin-bottom: 1rem;
+}
+
 /* || padding */
 .xs-padding {
   padding: 0.5rem;
@@ -127,6 +136,12 @@ h5,
 }
 .xl-padding {
   padding: 2.5rem;
+}
+.top-padding {
+  padding-top: 1rem;
+}
+.bottom-padding {
+  padding-bottom: 1rem;
 }
 
 /* || Border Radius */
