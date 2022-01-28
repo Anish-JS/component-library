@@ -13,16 +13,11 @@
 
 /* || Colors */
 :root {
-  /* --primary-color: #8075ff; */
   --primary-color: #7c3aed;
   --accent-color: #0284c7;
   --dark-accent: #1d032e;
-  /* --secondary-color: #364156;
-  --accent-color: #2d898b;
-  --accent-2-color: #9c3848; */
   --txt-color: #e4e4e7;
   --bg-color: #111827;
-  /* --bg-color: #011638; */
 
   --warning-color: #facc15;
   --danger-color: #ef4444;
@@ -84,7 +79,6 @@ h5,
 /* ||Spacing */
 .xs-gutter {
   margin: 0.5rem;
-  /* padding: 0.5rem; */
 }
 
 .xs-gutter {
@@ -92,25 +86,20 @@ h5,
 }
 .sm-gutter {
   margin: 1.25rem;
-  /* padding: 1rem; */
 }
 .md-gutter {
   margin: 1.5rem;
-  /* padding: 1.5rem; */
 }
 
 .lg-gutter {
   margin: 2rem;
-  /* padding: 2rem; */
 }
 
 .xl-gutter {
   margin: 2.5rem;
-  /* padding: 2.5rem; */
 }
 .xxl-gutter {
   margin: 4rem;
-  /* padding: 4rem; */
 }
 
 .top-gutter {
