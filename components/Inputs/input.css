@@ -1,0 +1,57 @@
+@import "../../style_guide.css";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+label {
+  display: block;
+}
+
+.textbox {
+  border: 2px solid var(--primary-color);
+  background-color: var(--bg-color);
+
+  color: var(--txt-color);
+  opacity: 0.8;
+}
+
+.textbox:focus {
+  border: 2px solid var(--accent-color);
+  outline: none;
+}
+
+.error-input {
+  border: 2px solid var(--danger-color);
+
+  background-color: var(--bg-color);
+  outline: none;
+  color: var(--txt-color);
+}
+
+.error {
+  color: var(--danger-color);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.checkbox-input {
+  width: 15px;
+  height: 15px;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.radio-input {
+  width: 15px;
+  height: 15px;
+}
