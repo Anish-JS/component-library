@@ -51,7 +51,7 @@ h4,
 
 .para-sm-xs {
   font-size: 0.75rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
 }
 
 h5,
@@ -111,6 +111,9 @@ h5,
 }
 
 /* || padding */
+.xxs-padding {
+  padding: 0.25rem;
+}
 .xs-padding {
   padding: 0.5rem;
 }
@@ -145,4 +148,40 @@ h5,
 }
 .sm-brr {
   border-radius: 5px;
+}
+
+/* || Avatar Images */
+.img-xxs {
+  width: 10%;
+}
+.img-xs {
+  width: 15%;
+}
+
+.img-sm {
+  width: 20%;
+}
+
+.img-md {
+  width: 30%;
+}
+
+.img-lg {
+  width: 40%;
+}
+
+.img-xl {
+  width: 50%;
+}
+
+.img-xxl {
+  width: 60%;
+}
+
+.img-xxxl {
+  width: 70%;
+}
+
+.img-full {
+  width: 100%;
 }
