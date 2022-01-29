@@ -14,5 +14,5 @@ body {
   /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
-  align-content: flex-start;
+  align-content: space-around;
 }
