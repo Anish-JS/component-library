@@ -4,10 +4,10 @@ body {
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
-
+/* 
 .images {
-  width: 10rem;
-}
+  width: 12rem;
+} */
 
 .img-container {
   display: flex;

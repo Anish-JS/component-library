@@ -14,28 +14,28 @@
   <body>
     <h2 class="xs-gutter">Inputs</h2>
     <h3 class="sm-gutter">Input Field - Textbox</h3>
-    <div class="sm-gutter">
+    <div class="sm-gutter input-container">
       <label for="textbox" class="xxs-padding">Label</label>
-      <input type="text" class="textbox img-md xxs-padding" />
+      <input type="text" class="textbox img-xl xxs-padding" />
     </div>
     <h3 class="sm-gutter">Input Field - Textbox and placeholder</h3>
-    <div class="sm-gutter">
+    <div class="sm-gutter input-container">
       <label for="textbox" class="xxs-padding">Label</label>
       <input
         type="text"
         placeholder="Placeholder"
-        class="textbox img-md xxs-padding"
+        class="textbox img-xl xxs-padding"
       />
     </div>
     <h3 class="sm-gutter">Input Field - Error Box</h3>
-    <div class="sm-gutter">
+    <div class="sm-gutter input-container">
       <label for="textbox" class="xxs-padding">Label</label>
       <input
         type="text"
-        class="textbox validation-input img-md xxs-padding"
+        class="textbox validation-input img-xl xxs-padding"
         placeholder="email"
       />
-      <i class="fas fa-exclamation-triangle xs-gutter error para-sm"></i>
+      <i class="fas fa-exclamation-triangle xs-gutter error para-md"></i>
     </div>
 
     <h3 class="sm-gutter">Input Field - CheckBox</h3>
@@ -58,6 +58,18 @@
     <div class="sm-gutter radio-container">
       <label for="radio-btn" class="radio para-sm xs-padding">Label</label>
       <input type="radio" name="input1" class="radio-input" />
+    </div>
+
+    <h3 class="sm-gutter">Input Field - Slider</h3>
+    <div class="sm-gutter">
+      <label for="slider" class="para-sm xs-padding">Slider</label>
+      <input
+        type="range"
+        name="input1"
+        class="range-input img-sm"
+        min="0"
+        max="100"
+      />
     </div>
     <script src="./input.js"></script>
   </body>

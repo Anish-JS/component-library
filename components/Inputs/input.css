@@ -3,10 +3,15 @@
 body {
   background-color: var(--bg-color);
   color: var(--txt-color);
+  overflow-x: hidden;
 }
 
 label {
   display: block;
+}
+
+.input-container {
+  width: 100%;
 }
 
 .textbox {
