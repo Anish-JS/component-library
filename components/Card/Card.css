@@ -1,0 +1,75 @@
+@import "../../style_guide.css";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+.card_layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: var(--txt-color);
+  width: 18rem;
+  color: var(--bg-color);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgb(0, 0, 0, 0.25);
+}
+
+.card__actions {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  align-items: center;
+  color: var(--primary-color);
+}
+
+.card__author {
+  margin-top: 0.5rem;
+}
+
+.card__media {
+  position: relative;
+  height: fit-content;
+}
+.card__media .card__content--card_2 {
+  position: absolute;
+  color: var(--txt-color);
+
+  bottom: 0;
+  left: 0;
+}
+
+.card_3-size {
+  width: 28rem;
+  height: fit-content;
+}
+.img-card_3 {
+  width: 12.5rem;
+  height: 8rem;
+  margin-bottom: 0;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card__media-title--card_3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.card__media-title--card_3,
+.card__media,
+.card__content--card_3 {
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
