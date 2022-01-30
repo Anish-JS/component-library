@@ -1,0 +1,10 @@
+@import "../../style_guide.css";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+.rating-container > i {
+  color: var(--primary-color);
+}
