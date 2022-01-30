@@ -1,0 +1,16 @@
+@import "../../style_guide.css";
+
+body {
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grey {
+  color: var(--grey-color);
+}
