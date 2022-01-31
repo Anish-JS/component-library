@@ -188,3 +188,8 @@ h5,
 .img-full {
   width: 100%;
 }
+
+/* List styling */
+.no-style {
+  list-style-type: none;
+}
