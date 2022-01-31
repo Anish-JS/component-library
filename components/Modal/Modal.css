@@ -15,6 +15,10 @@ body {
   visibility: hidden;
 }
 
+.btn {
+  cursor: pointer;
+}
+
 .modal {
   position: fixed;
   top: 20vh;
