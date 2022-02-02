@@ -4,14 +4,13 @@ body {
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
-/* 
+
 .images {
-  width: 12rem;
-} */
+  width: 10rem;
+}
 
 .img-container {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
   align-content: space-around;

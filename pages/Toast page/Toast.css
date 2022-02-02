@@ -1,0 +1,10 @@
+@import "../../components/Toast/toast.css";
+@import "../page_layout.css";
+
+iframe {
+  height: 30vh;
+}
+
+.navigation .nav-segment i {
+  color: var(--dark-accent);
+}

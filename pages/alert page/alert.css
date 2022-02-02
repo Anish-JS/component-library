@@ -1,0 +1,5 @@
+@import "../../components/Alert/alert.css";
+@import "../page_layout.css";
+iframe {
+  height: 60vh;
+}

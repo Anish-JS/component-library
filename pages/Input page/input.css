@@ -1,0 +1,6 @@
+@import "../../components/Inputs/input.css";
+@import "../page_layout.css";
+
+iframe {
+  height: 25vh;
+}
