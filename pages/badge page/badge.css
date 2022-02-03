@@ -1,0 +1,13 @@
+@import "../../components/badge/badge.css";
+
+@import "../page_layout.css";
+.badges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+iframe {
+  height: 100vh;
+}

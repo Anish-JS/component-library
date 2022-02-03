@@ -1,0 +1,6 @@
+@import "../../components/Card/Card.css";
+@import "../page_layout.css";
+
+iframe {
+  height: 80vh;
+}

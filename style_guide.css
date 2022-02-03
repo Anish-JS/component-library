@@ -9,6 +9,7 @@
   box-sizing: border-box;
   font-family: "Merriweather", serif; /* Font */
   text-decoration: none;
+  list-style: none;
 }
 
 /* || Colors */
@@ -192,4 +193,8 @@ h5,
 /* List styling */
 .no-style {
   list-style-type: none;
+}
+.active {
+  font-size: 1.1rem;
+  font-weight: bold;
 }

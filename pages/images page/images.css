@@ -1,0 +1,5 @@
+@import "../../components/images/images.css";
+@import "../page_layout.css";
+iframe {
+  height: 60vh;
+}

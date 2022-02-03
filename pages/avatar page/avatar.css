@@ -1,0 +1,13 @@
+@import "../../components/avatar/avatar.css";
+
+@import "../page_layout.css";
+.avatar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+iframe {
+  height: 50vh;
+}

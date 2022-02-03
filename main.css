@@ -1,0 +1,18 @@
+@import "./pages/Navigation/navigation.css";
+@import "./components/button/button.css";
+@import "./style_guide.css";
+
+.layout {
+  width: 100%;
+  height: 80vh;
+}
+
+.main-content {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

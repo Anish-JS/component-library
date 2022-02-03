@@ -1,0 +1,6 @@
+@import "../../components/Rating/rating.css";
+@import "../page_layout.css";
+
+iframe {
+  height: 30vh;
+}
