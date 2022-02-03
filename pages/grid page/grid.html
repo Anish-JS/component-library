@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cards</title>
-    <link rel="stylesheet" href="./card.css" />
+    <title>Grids</title>
+    <link rel="stylesheet" href="./grid.css" />
 
     <script
       src="https://kit.fontawesome.com/e612b5b46f.js"
@@ -25,7 +25,7 @@
       </div>
       <div class="brand-actions">
         <div class="left-nav-item xs-gutter xs-padding bold full-brr">
-          <a href="../installation page/install.html">Go to Docs</a>
+          <a href="./pages/installation page/install.html">Go to Docs</a>
         </div>
         <div class="left-nav-item xs-gutter xs-padding bold full-brr">
           <a href="https://twitter.com/AnishJakka"
@@ -90,8 +90,8 @@
                 >
               </li>
               <li class="nav-segment sm-gutter">
-                <a href="../Card page/card.html" class="xxs-padding active">
-                  <i class="fas fa-chevron-right para-sm-xs active"></i>
+                <a href="../Card page/card.html" class="xxs-padding">
+                  <i class="fas fa-chevron-right para-sm-xs"></i>
                   <span class="item xs-gutter semibold-weight">Card</span></a
                 >
               </li>
@@ -114,8 +114,8 @@
                 >
               </li>
               <li class="nav-segment sm-gutter">
-                <a href="../grid page/grid.html" class="xxs-padding">
-                  <i class="fas fa-chevron-right para-sm-xs"></i>
+                <a href="../grid page/grid.html" class="xxs-padding active">
+                  <i class="fas fa-chevron-right para-sm-xs active"></i>
                   <span class="item xs-gutter semibold-weight">Grids </span></a
                 >
               </li>
@@ -155,14 +155,93 @@
       <div class="right-section sm-gutter">
         <div class="container sm-gutter">
           <div class="right-section-header sm-gutter">
-            <h2 class="xs-padding">Cards</h2>
-            <p class="xs-padding">
-              Cards describe pieces of information as seperate section.
+            <h2 class="sm-gutter">Grids</h2>
+            <p class="sm-gutter">
+              Grids are used for building responsive layouts. They are flexible
+              and fluid inherently
             </p>
-          </div>
-          <div class="right-section-content sm-gutter">
-            <h3 class="sm-gutter">Vertical/Horizontal Cards with shadow</h3>
-            <div class="card_layout">
+            <h3 class="sm-gutter">Grid: 2 items</h3>
+            <div class="responsive-grid-items">
+              <div class="card-container sm-gutter sm-brr">
+                <img
+                  class="img-full sm-brr"
+                  src="https://cdn.wallpapersafari.com/52/47/VKjh5B.jpg"
+                  alt=""
+                />
+                <div class="card__content">
+                  <div class="card__heading xs-gutter para-md semibold-weight">
+                    Black Panther
+                  </div>
+                  <div class="card__author xs-gutter para-sm">
+                    by Kurt Wagner
+                  </div>
+                  <div class="card__info xs-gutter para-sm-xs">
+                    Visit ten places on our planet that are undergoing the
+                    biggest changes today.Lorem Ipsum is simply dummy text of
+                    the printing and typesetting industry.
+                  </div>
+                </div>
+                <div class="card__actions sm-gutter">
+                  <div class="card__read para-sm-xs semibold-weight">
+                    <a href="">READ</a>
+                  </div>
+                  <div class="card__bookmark para-sm-xs semibold-weight">
+                    <a href="">BOOKMARK</a>
+                  </div>
+                  <div class="card__like">
+                    <a href=""><i class="fas fa-share-alt para-sm"></i></a>
+                  </div>
+                  <div class="card__share">
+                    <a href=""><i class="far fa-heart para-sm"></i></a>
+                  </div>
+                  <div class="card__vert">
+                    <a href=""><i class="fas fa-ellipsis-v para-sm"></i></a>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+
+              <div class="card-container sm-gutter sm-brr">
+                <div class="card__content">
+                  <div class="card__heading xs-gutter para-md semibold-weight">
+                    Black Panther
+                  </div>
+                  <div class="card__author xs-gutter para-sm">
+                    by Kurt Wagner
+                  </div>
+                </div>
+                <img
+                  class="img__card-4 img-full"
+                  src="https://cdn.wallpapersafari.com/52/47/VKjh5B.jpg"
+                  alt=""
+                />
+                <div class="card__info xs-gutter para-sm-xs">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.Lorem Ipsum is simply dummy text of the printing
+                  and typesetting industry.
+                </div>
+                <div class="card__actions sm-gutter">
+                  <div class="card__read para-sm-xs semibold-weight">
+                    <a href="">READ</a>
+                  </div>
+                  <div class="card__bookmark para-sm-xs semibold-weight">
+                    <a href="">BOOKMARK</a>
+                  </div>
+                  <div class="card__like">
+                    <a href=""><i class="fas fa-share-alt para-sm"></i></a>
+                  </div>
+                  <div class="card__share">
+                    <a href=""><i class="far fa-heart para-sm"></i></a>
+                  </div>
+                  <div class="card__vert">
+                    <a href=""><i class="fas fa-ellipsis-v para-sm"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3 class="sm-gutter">Grid: 3 items</h3>
+            <div class="responsive-grid-items">
               <div class="card-container sm-gutter sm-brr">
                 <img
                   class="img-full sm-brr"
@@ -240,22 +319,29 @@
                 </div>
               </div>
 
-              <!-- Card 3 -->
-              <div class="card-container card_3-size sm-gutter sm-brr">
-                <div class="card__media-title--card_3">
-                  <div class="card__media">
-                    <img
-                      class="img-card_3 sm-brr"
-                      src="https://cdn.wallpapersafari.com/52/47/VKjh5B.jpg"
-                      alt=""
-                    />
-                  </div>
-                  <div class="card__content--card_3">
-                    <div class="card__heading para-md semibold-weight">
+              <div class="card-container sm-gutter sm-brr">
+                <div class="card__media">
+                  <img
+                    class="img__card-2 img-full sm-brr"
+                    src="https://cdn.wallpapersafari.com/52/47/VKjh5B.jpg"
+                    alt=""
+                  />
+                  <div class="card__content--card_2">
+                    <div
+                      class="card__heading card_2 xs-gutter para-md semibold-weight"
+                    >
                       Black Panther
                     </div>
-                    <div class="card__author">by Kurt Wagner</div>
+                    <div class="card__author card_2 xs-gutter para-sm">
+                      by Kurt Wagner
+                    </div>
                   </div>
+                </div>
+
+                <div class="card__info sm-gutter para-sm-xs">
+                  Visit ten places on our planet that are undergoing the biggest
+                  changes today.Lorem Ipsum is simply dummy text of the printing
+                  and typesetting industry.
                 </div>
                 <div class="card__actions sm-gutter">
                   <div class="card__read para-sm-xs semibold-weight">
@@ -278,171 +364,13 @@
             </div>
             <div class="code sm-gutter">
               <iframe
-                src="https://www.thiscodeworks.com/embed/61fa0223b783be0015bbadfb"
-              ></iframe>
-              <iframe
-                src="https://www.thiscodeworks.com/embed/61fa024fb783be0015bbadfc"
-              ></iframe>
-              <iframe
-                src="https://www.thiscodeworks.com/embed/61fa0284b783be0015bbadfd"
-              ></iframe>
-            </div>
-            <h3 class="sm-gutter">Card with Text Overlay and shadow</h3>
-
-            <div class="card-container sm-gutter sm-brr">
-              <div class="card__media">
-                <img
-                  class="img__card-2 img-full sm-brr"
-                  src="https://cdn.wallpapersafari.com/52/47/VKjh5B.jpg"
-                  alt=""
-                />
-                <div class="card__content--card_2">
-                  <div
-                    class="card__heading card_2 xs-gutter para-md semibold-weight"
-                  >
-                    Black Panther
-                  </div>
-                  <div class="card__author card_2 xs-gutter para-sm">
-                    by Kurt Wagner
-                  </div>
-                </div>
-              </div>
-
-              <div class="card__info sm-gutter para-sm-xs">
-                Visit ten places on our planet that are undergoing the biggest
-                changes today.Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry.
-              </div>
-              <div class="card__actions sm-gutter">
-                <div class="card__read para-sm-xs semibold-weight">
-                  <a href="">READ</a>
-                </div>
-                <div class="card__bookmark para-sm-xs semibold-weight">
-                  <a href="">BOOKMARK</a>
-                </div>
-                <div class="card__like">
-                  <a href=""><i class="fas fa-share-alt para-sm"></i></a>
-                </div>
-                <div class="card__share">
-                  <a href=""><i class="far fa-heart para-sm"></i></a>
-                </div>
-                <div class="card__vert">
-                  <a href=""><i class="fas fa-ellipsis-v para-sm"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="code sm-gutter">
-              <iframe
-                src="https://www.thiscodeworks.com/embed/61fa02eeb783be0015bbadff"
-              ></iframe>
-            </div>
-
-            <h3 class="sm-gutter">Text Only Card with shadow</h3>
-            <div class="card-container sm-gutter sm-brr">
-              <div class="card__content">
-                <div class="card__heading xs-gutter para-md semibold-weight">
-                  Black Panther
-                </div>
-                <div class="card__author xs-gutter para-sm">by Kurt Wagner</div>
-              </div>
-              <div class="card__info sm-gutter para-sm-xs">
-                Visit ten places on our planet that are undergoing the biggest
-                changes today.Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry.
-              </div>
-              <div class="card__actions sm-gutter">
-                <div class="card__read para-sm-xs semibold-weight">
-                  <a href="">READ</a>
-                </div>
-                <div class="card__bookmark para-sm-xs semibold-weight">
-                  <a href="">BOOKMARK</a>
-                </div>
-                <div class="card__like">
-                  <a href=""><i class="fas fa-share-alt para-sm"></i></a>
-                </div>
-                <div class="card__share">
-                  <a href=""><i class="far fa-heart para-sm"></i></a>
-                </div>
-                <div class="card__vert">
-                  <a href=""><i class="fas fa-ellipsis-v para-sm"></i></a>
-                </div>
-              </div>
-            </div>
-            <iframe
-              src="https://www.thiscodeworks.com/embed/61fa0318b783be0015bbae00"
-            ></iframe>
-            <h3 class="sm-gutter">Cards with Dismiss</h3>
-            <div class="card-container sm-gutter sm-brr">
-              <div class="card__content">
-                <div class="card__heading xs-gutter para-md semibold-weight">
-                  Black Panther
-                </div>
-                <div class="card__author xs-gutter para-sm">by Kurt Wagner</div>
-              </div>
-              <img
-                class="img__card-4 img-full"
-                src="https://cdn.wallpapersafari.com/52/47/VKjh5B.jpg"
-                alt=""
-              />
-              <div class="card__info xs-gutter para-sm-xs">
-                Visit ten places on our planet that are undergoing the biggest
-                changes today.Lorem Ipsum is simply dummy text of the printing
-                and typesetting industry.
-              </div>
-              <div class="card__actions sm-gutter">
-                <div class="card__read para-sm-xs semibold-weight">
-                  <a href="">CANCEL</a>
-                </div>
-              </div>
-            </div>
-            <div class="code sm-gutter">
-              <iframe
-                src="https://www.thiscodeworks.com/embed/61fa0340b783be0015bbae01"
-              ></iframe>
-            </div>
-
-            <h3 class="sm-gutter">Cards with Badges</h3>
-            <div class="card-container sm-gutter sm-brr">
-              <img
-                class="img-full sm-brr"
-                src="https://cdn.wallpapersafari.com/52/47/VKjh5B.jpg"
-                alt=""
-              />
-              <div class="card__content">
-                <div class="card__heading xs-gutter para-md semibold-weight">
-                  Black Panther
-                </div>
-                <div class="card__author xs-gutter para-sm">by Kurt Wagner</div>
-                <div class="card__info xs-gutter para-sm-xs">
-                  Visit ten places on our planet that are undergoing the biggest
-                  changes today.Lorem Ipsum is simply dummy text of the printing
-                  and typesetting industry.
-                </div>
-              </div>
-              <div class="card__actions sm-gutter">
-                <div class="card__like">
-                  <a href=""><i class="fas fa-share-alt para-sm"></i></a>
-                </div>
-                <div class="card__share">
-                  <a href=""><i class="far fa-heart para-sm"></i></a>
-                </div>
-                <div class="card__vert">
-                  <a href=""><i class="fas fa-ellipsis-v para-sm"></i></a>
-                </div>
-                <div class="card__vert">
-                  <a href=""><i class="fas fa-times-circle para-sm"></i></a>
-                </div>
-              </div>
-            </div>
-            <div class="code sm-gutter">
-              <iframe
-                src="https://www.thiscodeworks.com/embed/61fa036ab783be0015bbae02"
+                src="https://www.thiscodeworks.com/embed/61fbb3d66ab14d0015c32d39"
               ></iframe>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <script src="../Navigation/script.js"></script>
+    <script src="../../components/Navigation/script.js"></script>
   </body>
 </html>
