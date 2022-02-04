@@ -14,7 +14,8 @@
 
 /* || Colors */
 :root {
-  --primary-color: #8b5cf6;
+  --primary-color: #a78bfa;
+
   --accent-color: #0284c7;
   --dark-accent: #1d032e;
   --txt-color: #e4e4e7;
@@ -150,7 +151,9 @@ h5,
 .sm-brr {
   border-radius: 5px;
 }
-
+.xs-brr{
+  border-radius: 2px;
+}
 /* || Avatar Images */
 .img-xxxs {
   width: 5%;

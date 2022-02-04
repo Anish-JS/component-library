@@ -79,6 +79,9 @@ body {
   .brand-items {
     margin-left: 1rem;
   }
+  .left-nav-item {
+    display: none;
+  }
 }
 
 /*  */
