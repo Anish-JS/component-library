@@ -151,7 +151,9 @@ h5,
 .sm-brr {
   border-radius: 5px;
 }
-
+.xs-brr{
+  border-radius: 2px;
+}
 /* || Avatar Images */
 .img-xxxs {
   width: 5%;
