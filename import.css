@@ -10,5 +10,6 @@
 @import "./components/Rating/rating.css";
 @import "./components/Text Utility/TextUtil.css";
 @import "./components/Toast/toast.css";
+@import "./components/Grid/grid.css";
 
 @import "./style_guide.css";
