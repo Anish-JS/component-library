@@ -8,3 +8,6 @@ iframe {
 .navigation .nav-segment i {
   color: var(--dark-accent);
 }
+.light {
+  color: var(--txt-color);
+}
