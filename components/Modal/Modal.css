@@ -4,6 +4,7 @@ body {
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
+/* Backdrop */
 .backdrop {
   position: fixed;
   top: 0;
@@ -18,6 +19,7 @@ body {
 .btn {
   cursor: pointer;
 }
+/* Modal */
 
 .modal {
   position: fixed;
@@ -30,6 +32,7 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   z-index: 30;
 }
+/* Content and action */
 .content {
   color: var(--dark-accent);
 }

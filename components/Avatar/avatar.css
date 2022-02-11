@@ -9,8 +9,10 @@ body {
 img {
   object-fit: contain;
   block-size: auto;
+  position: relative;
 }
 
+/* Green badge on avatar */
 .notif-green {
   background-color: var(--success-color);
   position: absolute;
@@ -19,6 +21,7 @@ img {
   border: 2px solid var(--txt-color);
 }
 
+/* Red badge on avatar */
 .notif-red {
   background-color: var(--danger-color);
   position: absolute;
@@ -26,10 +29,8 @@ img {
   left: 40px;
   border: 2px solid var(--txt-color);
 }
-.img-badge {
-  position: relative;
-}
 
-img {
+/* Images */
+.img-badge {
   position: relative;
 }

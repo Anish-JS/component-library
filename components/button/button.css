@@ -4,6 +4,8 @@ body {
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
+
+/* Button primary,secondary and disabled */
 .primary-btn,
 .secondary-btn,
 .disabled-btn {
@@ -40,11 +42,13 @@ body {
   color: white;
 }
 
+/* Icon button */
 .icon-btn {
   padding: 1rem;
   background-color: var(--primary-color);
 }
 
+/* Floating action */
 .float_action {
   background-color: var(--primary-color);
   color: white;
