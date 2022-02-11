@@ -4,6 +4,7 @@ body {
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
+
 .alert-item {
   /* background-color: var(--primary-color); */
   width: fit-content;
@@ -12,11 +13,14 @@ body {
   max-width: 30rem;
   justify-content: flex-start;
 }
+/* Long alert */
 .long {
   max-width: 40rem;
   border: 1px solid var(--primary-color);
   background-color: var(--dark-accent);
 }
+
+/* error alert */
 .danger {
   /* background-color: ; */
   border: 1px solid var(--danger-color);
@@ -24,20 +28,24 @@ body {
 .danger i {
   color: var(--danger-color);
 }
+
+/* Regular info alert */
 .reg {
   border: 1px solid var(--primary-color);
 }
 .reg i {
   color: var(--primary-color);
 }
+
+/* Warning alert */
 .warning {
   border: 1px solid var(--warning-color);
 }
-
 .warning i {
   color: var(--warning-color);
 }
 
+/* Success alert */
 .success {
   border: 1px solid var(--success-color);
 }

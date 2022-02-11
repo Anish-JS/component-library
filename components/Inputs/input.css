@@ -13,7 +13,7 @@ body {
 .input-container {
   width: 100%;
 }
-
+/* Text input */
 .textbox {
   border: 2px solid var(--primary-color);
   background-color: var(--bg-color);
@@ -26,7 +26,7 @@ body {
   border: 2px solid var(--accent-color);
   outline: none;
 }
-
+/* Error styling */
 .error-input {
   border: 2px solid var(--danger-color);
 
@@ -39,6 +39,8 @@ body {
   color: var(--danger-color);
 }
 
+/* Checkboxes */
+
 .checkbox-container {
   display: flex;
   align-items: center;
@@ -49,6 +51,8 @@ body {
   width: 15px;
   height: 15px;
 }
+
+/* Radio buttons */
 
 .radio-container {
   display: flex;

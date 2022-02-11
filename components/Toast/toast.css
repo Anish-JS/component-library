@@ -19,17 +19,20 @@ body {
   display: flex;
   align-items: center;
 }
+/* toast icon */
 .toast-icon a,
 .toast-icon i {
   color: var(--txt-color);
 }
 
+/* position */
 .pos1 {
   position: relative;
   bottom: 0;
   right: 0;
 }
 
+/* Light version */
 .light-v {
   background-color: var(--txt-color);
   color: var(--bg-color);
@@ -40,10 +43,12 @@ body {
   color: var(--bg-color);
 }
 
+/* Sucess toast */
 .success-v {
   background-color: var(--success-color);
 }
 
+/* Error toast */
 .error-v {
   background-color: var(--danger-color);
 }
