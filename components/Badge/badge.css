@@ -1,8 +1,5 @@
 @import "../../style_guide.css";
-body {
-  background-color: var(--bg-color);
-  color: var(--txt-color);
-}
+
 /* Badge containers */
 .badge-container {
   position: relative;

@@ -1,9 +1,5 @@
 @import "../../style_guide.css";
 @import "../button/button.css";
-body {
-  background-color: var(--bg-color);
-  color: var(--txt-color);
-}
 
 .toast {
   display: flex;
