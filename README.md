@@ -1,9 +1,9 @@
 # [Pixel CSS Component-library](https://pixelcss.netlify.app/)
 
-PixelCSS is a simple UI design assistant modular and dynmaic in nature to fasten web development.
+PixelCSS is a simple UI design assistant modular and dynamic in nature to fasten web development.
 PixelCSS provides reusable components with different aesthetic flavors and designs to choose from.
 
-#### This library and the underlying components is built using the following technologies:
+#### This library and the underlying components are built using the following technologies:
 
 1. HTML
 2. CSS
