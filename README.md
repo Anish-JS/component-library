@@ -29,3 +29,8 @@ PixelCSS provides reusable components with different aesthetic flavors and desig
 - An [installation page](https://pixelcss.netlify.app/pages/installation%20page/install.html) is provided to get started with the components
 - A [style guide](https://pixelcss.netlify.app/style_guide.css) is also embedded which can be used to create an array of different components (different sizes,spacing,colors etc.)
 
+## Demo
+- Please visit this link for a walkthrough of the library - [PixelCSS](https://drive.google.com/file/d/1U_dfBxKO4-GEkTP4-GwvFjyqQeJCqK44/view?usp=sharing)
+
+
+
