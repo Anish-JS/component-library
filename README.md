@@ -19,6 +19,7 @@ PixelCSS provides reusable components with different aesthetic flavors and desig
 - [Input](https://pixelcss.netlify.app/pages/input%20page/input)
 - [Lists](https://pixelcss.netlify.app/pages/lists%20page/lists)
 - [Modal](https://pixelcss.netlify.app/pages/modal%20page/modal)
+- [Responsive Grid](https://pixelcss.netlify.app/pages/grid%20page/grid.html)
 - [Rating](https://pixelcss.netlify.app/pages/rating%20page/rating)
 - [Toast](https://pixelcss.netlify.app/pages/toast%20page/toast)
 - [Text Utilities](https://pixelcss.netlify.app/pages/text%20utility%20page/textutils)
