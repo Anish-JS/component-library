@@ -5,7 +5,7 @@ console.log(toasts);
 console.log(btns);
 btns.forEach((btn) => {
   btn.addEventListener("click", () => {
-    console.log("hi");
+    console.log("working...");
     if (btn.classList.contains("toggle-btn-1")) displaySnackBar(toasts[0]);
     else if (btn.classList.contains("toggle-btn-2")) displaySnackBar(toasts[1]);
     else if (btn.classList.contains("toggle-btn-3")) displaySnackBar(toasts[2]);
@@ -17,5 +17,5 @@ const displaySnackBar = (toast) => {
   toast.style.visibility = "visible";
   setTimeout(() => {
     toast.style.visibility = "hidden";
-  }, 2000);
+  }, 3000);
 };
