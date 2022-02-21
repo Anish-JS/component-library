@@ -25,7 +25,7 @@ PixelCSS provides reusable components with different aesthetic flavors and desig
 - [Text Utilities](https://pixelcss.netlify.app/pages/text%20utility%20page/textutils)
 
 ### Note
-- All the components' uses are outlined to ensure easy adoption
+- All the components' uses are outlined and described to ensure easy adoption
 - An [installation page](https://pixelcss.netlify.app/pages/installation%20page/install.html) is provided to get started with the components
 - A [style guide](https://pixelcss.netlify.app/style_guide.css) is also embedded which can be used to create an array of different components (different sizes,spacing,colors etc.)
 
