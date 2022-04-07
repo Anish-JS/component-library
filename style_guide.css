@@ -207,3 +207,6 @@ h5,
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
+.primary-clr {
+  color: var(--primary-color);
+}

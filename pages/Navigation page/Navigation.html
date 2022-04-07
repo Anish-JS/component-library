@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Badge</title>
-    <link rel="stylesheet" href="./badge.css" />
+    <title>Navigation</title>
+    <link rel="stylesheet" href="./Navigation.css" />
+
     <script
       src="https://kit.fontawesome.com/e612b5b46f.js"
       crossorigin="anonymous"
@@ -15,7 +16,7 @@
     <div class="brand">
       <div class="brand-items">
         <div class="navbar_header xs-gutter xs-padding">
-          <a class="toggle-navigation"><i class="fas fa-bars para-md"></i></a>
+          <a href=""><i class="fas fa-bars para-md"></i></a>
         </div>
         <div class="brand-name xs-gutter para-lg semibold-weight">PixelCSS</div>
         <div class="brand-version lg-brr xs-padding para-sm-xs semibold-weight">
@@ -24,7 +25,7 @@
       </div>
       <div class="brand-actions">
         <div class="left-nav-item xs-gutter xs-padding bold full-brr">
-          <a href="../installation page/install.html">Go to Docs</a>
+          <a href="./pages/installation page/install.html">Go to Docs</a>
         </div>
         <div class="left-nav-item xs-gutter xs-padding bold full-brr">
           <a href="https://twitter.com/AnishJakka"
@@ -83,11 +84,8 @@
                 >
               </li>
               <li class="nav-segment sm-gutter">
-                <a
-                  href="../../pages/badge page/badge.html"
-                  class="xxs-padding active"
-                >
-                  <i class="fas fa-chevron-right para-sm-xs active"></i>
+                <a href="../../pages/badge page/badge.html" class="xxs-padding">
+                  <i class="fas fa-chevron-right para-sm-xs"></i>
                   <span class="item xs-gutter semibold-weight">Badge</span></a
                 >
               </li>
@@ -116,22 +114,13 @@
                 >
               </li>
               <li class="nav-segment sm-gutter">
-                <a href="../grid page/grid.html" class="xxs-padding">
-                  <i class="fas fa-chevron-right para-sm-xs"></i>
-                  <span class="item xs-gutter semibold-weight">Grids </span></a
-                >
-              </li>
-              <li class="nav-segment sm-gutter">
                 <a href="../Modal page/Modal.html" class="xxs-padding">
                   <i class="fas fa-chevron-right para-sm-xs"></i>
                   <span class="item xs-gutter semibold-weight">Modal</span></a
                 >
               </li>
               <li class="nav-segment sm-gutter">
-                <a
-                  href="../Navigation page/Navigation.html"
-                  class="xxs-padding"
-                >
+                <a href="../Modal page/Modal.html" class="xxs-padding">
                   <i class="fas fa-chevron-right para-sm-xs"></i>
                   <span class="item xs-gutter semibold-weight"
                     >Navigation</span
@@ -139,8 +128,8 @@
                 >
               </li>
               <li class="nav-segment sm-gutter">
-                <a href="../Rating page/rating.html" class="xxs-padding">
-                  <i class="fas fa-chevron-right para-sm-xs"></i>
+                <a href="../Rating page/rating.html" class="xxs-padding active">
+                  <i class="fas fa-chevron-right para-sm-xs active"></i>
                   <span class="item xs-gutter semibold-weight">Rating</span></a
                 >
               </li>
@@ -168,62 +157,34 @@
       <div class="right-section sm-gutter">
         <div class="container sm-gutter">
           <div class="right-section-header sm-gutter">
-            <h2 class="xs-padding">Badge</h2>
+            <h2 class="xs-padding">Navigation</h2>
             <p class="xs-padding">
-              A badge is kind of a notification counter which is also used to
-              display status of a person (online/offline). the counter describes
-              a number semantic to the icon
+              A navigation component helps you to steer through different
+              location on a website making it easier for reaching different
+              pages
             </p>
           </div>
           <div class="right-section-content sm-gutter">
-            <h3 class="xs-padding">Badge on icons</h3>
-            <div class="badges">
-              <div class="badge-container sm-gutter">
-                <div class="email-badge">
-                  <i class="fas fa-envelope fa-2x xs-padding"></i>
-                </div>
-                <div class="badge xs-padding full-brr para-sm-xs">10</div>
-              </div>
-              <div class="badge-container sm-gutter">
-                <div class="email-badge">
-                  <i class="fas fa-envelope xs-padding"></i>
-                </div>
-                <div class="badge full-brr para-xs xxs-padding pos-small">
-                  10
-                </div>
-              </div>
-
-              <div class="badge-container sm-gutter">
-                <div class="notifs-badge full-brr">
-                  <i class="fas fa-bell fa-2x sm-padding"></i>
-                </div>
-                <div class="badge xs-padding full-brr para-sm-xs">10</div>
-              </div>
-              <div class="badge-container sm-gutter">
-                <button class="button-badge para-sm xs-gutter md-brr">
-                  Action
-                </button>
-                <div class="badge xs-padding full-brr para-sm-xs">10</div>
-              </div>
-              <div class="badge-container sm-gutter">
-                <button class="button-badge para-xs xs-gutter md-brr">
-                  Action
-                </button>
-                <div class="badge xxs-padding full-brr para-xs pos-small">
-                  10
-                </div>
-              </div>
+            <div class="rating-container xs-gutter">
+              To view the navigation component, please click on the link below.
             </div>
-          </div>
-
-          <div class="code sm-gutter">
-            <iframe
-              src="https://www.thiscodeworks.com/embed/61fa041fb783be0015bbae04"
-            ></iframe>
+            <a
+              href="../../components/Navigation/navigation.html"
+              class="xs-gutter primary-clr"
+              target="_blank"
+              >Navigation component</a
+            >
+            <div class="codes sm-gutter">
+              <iframe
+                src="https://www.thiscodeworks.com/embed/6247e5ff8097fe0015b12c3a"
+                frameborder="0"
+              ></iframe>
+            </div>
+            <script src="./Modal.js"></script>
           </div>
         </div>
       </div>
     </div>
-    <script src="../Navigation/script.js"></script>
+    <script src="../../components/Navigation/script.js"></script>
   </body>
 </html>

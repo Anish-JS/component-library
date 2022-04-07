@@ -1,0 +1,4 @@
+@import "../page_layout.css";
+iframe {
+  height: 100vh;
+}
